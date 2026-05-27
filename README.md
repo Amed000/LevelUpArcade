@@ -264,8 +264,8 @@ Abre `memoria-web/index.html` en tu navegador para acceder a la memoria completa
 
 | Nombre | Rol |
 |--------|-----|
-| .................. | Desarrollador / Analista |
-| .................. | Desarrollador / DBA |
+| AHMED SALEM GHARAGA | Desarrollador / Analista |
+| AHMED SALEM GHARAGA | Desarrollador / DBA |
 
 ---
 
