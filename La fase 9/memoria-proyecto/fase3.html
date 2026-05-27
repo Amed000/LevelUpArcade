@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fase 3 - Infraestructura y Entorno | LevelUp Arcade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body class="phase-page">
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <header class="site-header" data-nav>
+    <a class="brand" href="index.html" aria-label="Inicio LevelUp Arcade">
+      <span class="brand-mark">LU</span>
+      <span class="brand-text">LevelUp Arcade</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Navegacion principal">
+      <a class="" href="index.html">Inicio</a>
+<a class="" href="fase1.html">Fase 1</a>
+<a class="" href="fase2.html">Fase 2</a>
+<a class="active" href="fase3.html">Fase 3</a>
+<a class="" href="fase4.html">Fase 4</a>
+<a class="" href="fase5.html">Fase 5</a>
+<a class="" href="fase6.html">Fase 6</a>
+<a class="" href="fase7.html">Fase 7</a>
+<a class="" href="fase8.html">Fase 8</a>
+<a class="" href="fase9.html">Fase 9</a>
+<a class="" href="fase10.html">Fase 10</a>
+<a class="" href="presentacion.html">Presentación</a>
+    </nav>
+  </header>
+  <main>
+
+    
+      <section class="phase-hero">
+        <div class="particle-layer" data-particles></div>
+        <div class="hero-grid"></div>
+        <div class="container hero-inner">
+          <div class="phase-chip">Fase 03</div>
+          <h1>Fase 3 - Infraestructura y Entorno</h1>
+          <p>Servidor Ubuntu, direccionamiento IP, MariaDB y conexion remota.</p>
+        </div>
+      </section>
+    
+    <div class="container phase-layout">
+      <section class="content-section reveal">
+        <div class="section-kicker">Objetivo</div>
+        <h2>Objetivo de la fase</h2>
+        <p>Preparar el entorno donde se alojara la base de datos y comprobar la conexion desde herramientas externas.</p>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Desarrollo</div>
+        <h2>Desarrollo del trabajo realizado</h2>
+        <div class="pdf-transcript">FASE 3) INFRAESTRUCTURA Y ENTORNO<br>Configuración de su direccionamiento IP para que sea accesible:<br><br>Instalación y configuración de MySQL:<br>En la maquina ha que ejecutar este comando;<br>(sudo apt install mariadb-server).<br>Conectarse remotamente al servidor para:<br><br>Crear la base de datos del sistema:<br>Ejecutar los scripts SQL creados en la Fase 2:</div>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Decisiones</div>
+        <h2>Decisiones técnicas tomadas</h2>
+        <ul class="neon-list"><li>Se utiliza Ubuntu Server como entorno para MariaDB.</li>
+<li>La red se configura para permitir acceso remoto al servidor.</li>
+<li>La administracion de datos se valida con herramientas graficas de conexion SQL.</li>
+<li>Los scripts SQL de la fase 2 se ejecutan sobre la base real del sistema.</li>
+        </ul>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Resultados</div>
+        <h2>Resultados obtenidos</h2>
+        <ul class="neon-list"><li>Direccionamiento IP configurado para que el servidor sea accesible.</li>
+<li>MariaDB instalado y preparado.</li>
+<li>Conexion remota probada correctamente.</li>
+<li>Base de datos levelup_arcade creada e importada.</li>
+        </ul>
+      </section>
+      
+      
+        <section class="content-section">
+          <div class="section-kicker">Evidencias</div>
+          <h2>Galeria de capturas</h2>
+          <div class="gallery-grid">
+            
+            <a class="gallery-item reveal" href="assets/capturas/p14_01.png" data-lightbox data-caption="Configuracion de red en la maquina virtual Ubuntu.">
+              <img src="assets/capturas/p14_01.png" alt="Configuracion de red en la maquina virtual Ubuntu." loading="lazy">
+              <span>Configuracion de red en la maquina virtual Ubuntu.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p14_02.png" data-lightbox data-caption="Terminal con comprobaciones de direccionamiento IP.">
+              <img src="assets/capturas/p14_02.png" alt="Terminal con comprobaciones de direccionamiento IP." loading="lazy">
+              <span>Terminal con comprobaciones de direccionamiento IP.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p15_01.png" data-lightbox data-caption="Conexion remota validada con MySQL Workbench.">
+              <img src="assets/capturas/p15_01.png" alt="Conexion remota validada con MySQL Workbench." loading="lazy">
+              <span>Conexion remota validada con MySQL Workbench.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p15_02.png" data-lightbox data-caption="Base de datos levelup_arcade preparada en el gestor SQL.">
+              <img src="assets/capturas/p15_02.png" alt="Base de datos levelup_arcade preparada en el gestor SQL." loading="lazy">
+              <span>Base de datos levelup_arcade preparada en el gestor SQL.</span>
+            </a>
+            
+          </div>
+        </section>
+    
+    </div>
+    <section class="phase-nav container"><a class="nav-card prev" href="fase2.html">← Fase anterior</a><a class="nav-card next" href="fase4.html">Fase siguiente →</a></section>
+    
+  </main>
+  <footer class="site-footer">
+    <div>
+      <strong>LevelUp Arcade</strong>
+      <p>Memoria web del proyecto Java, MySQL, Linux, Git y OpenRouter.</p>
+    </div>
+    <div class="footer-tech">
+      <span>Java</span><span>MySQL</span><span>Ubuntu</span><span>Git</span><span>OpenRouter</span>
+    </div>
+  </footer>
+</body>
+</html>

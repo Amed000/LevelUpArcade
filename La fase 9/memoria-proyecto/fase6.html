@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fase 6 - Pruebas y Calidad | LevelUp Arcade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body class="phase-page">
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <header class="site-header" data-nav>
+    <a class="brand" href="index.html" aria-label="Inicio LevelUp Arcade">
+      <span class="brand-mark">LU</span>
+      <span class="brand-text">LevelUp Arcade</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Navegacion principal">
+      <a class="" href="index.html">Inicio</a>
+<a class="" href="fase1.html">Fase 1</a>
+<a class="" href="fase2.html">Fase 2</a>
+<a class="" href="fase3.html">Fase 3</a>
+<a class="" href="fase4.html">Fase 4</a>
+<a class="" href="fase5.html">Fase 5</a>
+<a class="active" href="fase6.html">Fase 6</a>
+<a class="" href="fase7.html">Fase 7</a>
+<a class="" href="fase8.html">Fase 8</a>
+<a class="" href="fase9.html">Fase 9</a>
+<a class="" href="fase10.html">Fase 10</a>
+<a class="" href="presentacion.html">Presentación</a>
+    </nav>
+  </header>
+  <main>
+
+    
+      <section class="phase-hero">
+        <div class="particle-layer" data-particles></div>
+        <div class="hero-grid"></div>
+        <div class="container hero-inner">
+          <div class="phase-chip">Fase 06</div>
+          <h1>Fase 6 - Pruebas y Calidad</h1>
+          <p>Casos de prueba, JUnit, depuracion y backups automaticos.</p>
+        </div>
+      </section>
+    
+    <div class="container phase-layout">
+      <section class="content-section reveal">
+        <div class="section-kicker">Objetivo</div>
+        <h2>Objetivo de la fase</h2>
+        <p>Validar que las operaciones principales funcionan y preparar salvaguardas de la base de datos.</p>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Desarrollo</div>
+        <h2>Desarrollo del trabajo realizado</h2>
+        <div class="pdf-transcript">FASE 6) PRUEBAS Y CALIDAD<br>• Definir los casos de pruebas. Deben incluir: operaciones CRUD,<br>validación de datos y casos de error y situaciones límite<br><br>• Implementar pruebas unitarias utilizando JUnit.<br><br>• Realizar depuración para corregir los errores detectados<br><br>• En el servidor Ubuntu se implementará un sistema de copias de seguridad<br>automáticas de la base de datos. Para ello se creará un script de backup y<br>Se programará una tarea automática (cron) para su ejecución periódica.<br>1. CREAR CARPETA DE BACKUPS En Ubuntu Server:<br><br>2. Crear archivo backup_levelup.sh:<br><br>3. DAR PERMISOS AL SCRIPT:<br><br>4. PROGRAMAR BACKUP AUTOMÁTICO</div>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Decisiones</div>
+        <h2>Decisiones técnicas tomadas</h2>
+        <ul class="neon-list"><li>Los casos de prueba cubren CRUD, validaciones, errores y situaciones limite.</li>
+<li>JUnit se usa para pruebas unitarias sobre la logica principal.</li>
+<li>La depuracion se realiza desde el entorno de desarrollo para localizar fallos.</li>
+<li>Los backups se automatizan en Ubuntu con script y tarea cron.</li>
+        </ul>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Resultados</div>
+        <h2>Resultados obtenidos</h2>
+        <ul class="neon-list"><li>Plan de pruebas definido por modulo.</li>
+<li>Pruebas unitarias implementadas y ejecutadas.</li>
+<li>Errores detectados y corregidos durante la depuracion.</li>
+<li>Sistema de copias de seguridad automatizado para la base de datos.</li>
+        </ul>
+      </section>
+      
+      
+        <section class="content-section">
+          <div class="section-kicker">Evidencias</div>
+          <h2>Galeria de capturas</h2>
+          <div class="gallery-grid">
+            
+            <a class="gallery-item reveal" href="assets/capturas/p22_01.png" data-lightbox data-caption="Casos de prueba para operaciones CRUD.">
+              <img src="assets/capturas/p22_01.png" alt="Casos de prueba para operaciones CRUD." loading="lazy">
+              <span>Casos de prueba para operaciones CRUD.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p22_02.png" data-lightbox data-caption="Casos de prueba para errores y situaciones limite.">
+              <img src="assets/capturas/p22_02.png" alt="Casos de prueba para errores y situaciones limite." loading="lazy">
+              <span>Casos de prueba para errores y situaciones limite.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p23_01.png" data-lightbox data-caption="Pruebas unitarias JUnit en Eclipse.">
+              <img src="assets/capturas/p23_01.png" alt="Pruebas unitarias JUnit en Eclipse." loading="lazy">
+              <span>Pruebas unitarias JUnit en Eclipse.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p23_02.png" data-lightbox data-caption="Depuracion y correccion de errores detectados.">
+              <img src="assets/capturas/p23_02.png" alt="Depuracion y correccion de errores detectados." loading="lazy">
+              <span>Depuracion y correccion de errores detectados.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p24_01.png" data-lightbox data-caption="Creacion de carpeta de backups y permisos iniciales.">
+              <img src="assets/capturas/p24_01.png" alt="Creacion de carpeta de backups y permisos iniciales." loading="lazy">
+              <span>Creacion de carpeta de backups y permisos iniciales.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p24_02.png" data-lightbox data-caption="Script backup_levelup.sh para copia de seguridad.">
+              <img src="assets/capturas/p24_02.png" alt="Script backup_levelup.sh para copia de seguridad." loading="lazy">
+              <span>Script backup_levelup.sh para copia de seguridad.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p24_03.png" data-lightbox data-caption="Permisos de ejecucion del script de backup.">
+              <img src="assets/capturas/p24_03.png" alt="Permisos de ejecucion del script de backup." loading="lazy">
+              <span>Permisos de ejecucion del script de backup.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p24_04.png" data-lightbox data-caption="Programacion de backup automatico con cron.">
+              <img src="assets/capturas/p24_04.png" alt="Programacion de backup automatico con cron." loading="lazy">
+              <span>Programacion de backup automatico con cron.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p24_05.png" data-lightbox data-caption="Backup generado correctamente.">
+              <img src="assets/capturas/p24_05.png" alt="Backup generado correctamente." loading="lazy">
+              <span>Backup generado correctamente.</span>
+            </a>
+            
+          </div>
+        </section>
+    
+    </div>
+    <section class="phase-nav container"><a class="nav-card prev" href="fase5.html">← Fase anterior</a><a class="nav-card next" href="fase7.html">Fase siguiente →</a></section>
+    
+  </main>
+  <footer class="site-footer">
+    <div>
+      <strong>LevelUp Arcade</strong>
+      <p>Memoria web del proyecto Java, MySQL, Linux, Git y OpenRouter.</p>
+    </div>
+    <div class="footer-tech">
+      <span>Java</span><span>MySQL</span><span>Ubuntu</span><span>Git</span><span>OpenRouter</span>
+    </div>
+  </footer>
+</body>
+</html>

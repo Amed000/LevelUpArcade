@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fase 1 - Análisis del Sistema | LevelUp Arcade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body class="phase-page">
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <header class="site-header" data-nav>
+    <a class="brand" href="index.html" aria-label="Inicio LevelUp Arcade">
+      <span class="brand-mark">LU</span>
+      <span class="brand-text">LevelUp Arcade</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Navegacion principal">
+      <a class="" href="index.html">Inicio</a>
+<a class="active" href="fase1.html">Fase 1</a>
+<a class="" href="fase2.html">Fase 2</a>
+<a class="" href="fase3.html">Fase 3</a>
+<a class="" href="fase4.html">Fase 4</a>
+<a class="" href="fase5.html">Fase 5</a>
+<a class="" href="fase6.html">Fase 6</a>
+<a class="" href="fase7.html">Fase 7</a>
+<a class="" href="fase8.html">Fase 8</a>
+<a class="" href="fase9.html">Fase 9</a>
+<a class="" href="fase10.html">Fase 10</a>
+<a class="" href="presentacion.html">Presentación</a>
+    </nav>
+  </header>
+  <main>
+
+    
+      <section class="phase-hero">
+        <div class="particle-layer" data-particles></div>
+        <div class="hero-grid"></div>
+        <div class="container hero-inner">
+          <div class="phase-chip">Fase 01</div>
+          <h1>Fase 1 - Análisis del Sistema</h1>
+          <p>Requisitos, actores, casos de uso, historias de usuario y backlog.</p>
+        </div>
+      </section>
+    
+    <div class="container phase-layout">
+      <section class="content-section reveal">
+        <div class="section-kicker">Objetivo</div>
+        <h2>Objetivo de la fase</h2>
+        <p>Definir el alcance funcional y tecnico de LevelUp Arcade antes de comenzar el desarrollo.</p>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Desarrollo</div>
+        <h2>Desarrollo del trabajo realizado</h2>
+        <div class="pdf-transcript">PROYECTO 2 – DESARROLLO DE APLICACIÓN CON<br>Java, MySQL y LLM<br><br>FASE 1 – ANÁLISIS DEL SISTEMA<br>1. Descripción del sistema<br>El sistema que se va a desarrollar es una aplicación de gestión para la empresa LevelUp<br>Arcade, especializada en la venta de videojuegos y merchandising.<br>Actualmente la empresa gestiona su información mediante hojas de cálculo, lo que<br>provoca errores, duplicidad de datos y pérdida de control del inventario y clientes.<br>El objetivo del sistema es crear una aplicación en Java conectada a una base de datos<br>MySQL que permita gestionar de forma centralizada:<br>• Productos<br>• Clientes<br>• Proveedores<br>Además, incorporará funcionalidades de Inteligencia Artificial mediante OpenRouter<br>para mejorar la gestión de productos.<br><br>2. Objetivos del sistema<br>• Digitalizar la gestión de inventario.<br>• Mejorar la gestión de clientes y proveedores.<br>• Reducir errores humanos.<br>• Automatizar tareas mediante IA.<br>• Centralizar toda la información en una base de datos.<br>• Facilitar el mantenimiento y escalabilidad del sistema.<br><br>3. Requisitos funcionales<br>Los requisitos funcionales describen qué hará el sistema.<br>RF1. Gestión de usuarios<br>El sistema permitirá registrar, modificar, eliminar y consultar usuarios.<br>RF2. Gestión de clientes<br>El sistema permitirá almacenar la información de los clientes, incluyendo nombre,<br>teléfono y correo electrónico.<br>RF3. Gestión de productos<br>El sistema permitirá registrar videojuegos, consolas y accesorios con su precio, stock y<br>categoría.<br>RF4. Gestión de proveedores<br>El sistema permitirá almacenar y administrar la información de los proveedores.<br>RF5. Gestión de pedidos<br>El sistema permitirá crear pedidos asociados a clientes y productos.<br>RF6. Control de stock<br>El sistema actualizará automáticamente el stock de productos después de cada venta o<br>pedido.<br>RF7. Búsqueda de información<br>El sistema permitirá buscar productos, clientes y pedidos mediante filtros.<br>RF8. Conexión con base de datos<br>El sistema almacenará toda la información en una base de datos MySQL/MariaDB.<br>RF9. Inicio de sesión<br>El sistema permitirá iniciar sesión mediante usuario y contraseña.<br>RF10. Generación de informes<br>El sistema permitirá consultar listados de productos, clientes y pedidos.<br><br>4. Requisitos no funcionales<br>1) Requisitos de capacidad<br>• El sistema deberá soportar al menos 50 productos registrados.<br>• El tiempo de respuesta de las consultas no deberá superar los 3 segundos.<br>• La base de datos deberá permitir almacenar clientes, pedidos y productos sin<br>pérdida de rendimiento.<br>2) Requisitos de interfaces<br>• El sistema se conectará a una base de datos MariaDB/MySQL mediante JDBC.<br>• El sistema será desarrollado en Java usando Eclipse.<br>• La interfaz utilizará formularios gráficos básicos.<br>3) Requisitos de operación<br>• El sistema deberá permitir iniciar y cerrar sesión.<br>• El usuario podrá utilizar teclado y ratón para navegar.<br>• El sistema deberá poder iniciarse desde cualquier ordenador con Java instalado.<br>4) Requisitos de recursos<br>• Se necesitará un servidor Ubuntu con MariaDB instalado.<br>• El sistema requerirá Java JDK y el conector JDBC de MySQL.<br>• Se necesitará conexión en red para acceder a la base de datos remota.<br>5) Requisitos de verificación<br>• El sistema deberá comprobar que los campos obligatorios estén completos.<br>• El sistema validará usuarios y contraseñas antes del acceso.<br>6) Requisitos de pruebas de aceptación<br>• El sistema será aceptado si permite gestionar correctamente productos, clientes y<br>pedidos.<br>• Todas las operaciones CRUD deberán funcionar correctamente.<br>7) Requisitos de documentación<br>• El proyecto incluirá documentación técnica y manual de usuario.<br>• Se entregarán diagramas UML y scripts SQL.<br><br>8) Requisitos de seguridad<br>• El acceso al sistema requerirá autenticación mediante contraseña.<br>• Solo los usuarios autorizados podrán modificar datos.<br>• La base de datos estará protegida mediante usuarios y permisos.<br><br>9) Requisitos de transportabilidad<br>• El sistema podrá ejecutarse en Windows y Linux.<br>• La aplicación podrá trasladarse fácilmente usando Java.<br><br>10) Requisitos de calidad<br>• La interfaz deberá ser sencilla e intuitiva.<br>• El código seguirá una estructura MVC para facilitar la organización.<br><br>11) Requisitos de fiabilidad<br>• El sistema deberá mantener la información almacenada sin pérdidas.<br>• La aplicación deberá minimizar errores durante el uso normal.<br><br>12) Requisitos de mantenibilidad<br>• El código estará dividido en clases y paquetes organizados.<br>• La estructura permitirá añadir nuevas funciones fácilmente.<br><br>13) Requisitos de salvaguarda<br>• El sistema deberá evitar eliminar información accidentalmente.<br>• Se realizarán copias de seguridad de la base de datos.<br><br>5. Actores del sistema<br>Administrador<br>• Acceso total al sistema.<br>• Puede crear, modificar y eliminar cualquier dato.<br>• Gestiona usuarios.<br>Empleado<br>• Puede consultar datos.<br>• No puede modificar ni eliminar información.<br>• Acceso limitado a funcionalidades.<br><br>6. Casos de uso<br>Diagrama de casos de uso:<br><br>7. Historias de usuario<br>HU1 – Gestión de productos<br>Como administrador, quiero poder añadir, modificar y eliminar productos para mantener<br>actualizado el inventario.<br>HU2 – Consulta de datos<br>Como empleado, quiero consultar productos, clientes y proveedores para atender a los<br>clientes.<br>HU3 – Gestión de clientes<br>Como administrador, quiero gestionar clientes para mantener la base de datos<br>actualizada.<br>HU4 – Gestión de proveedores<br>Como administrador, quiero gestionar proveedores para controlar el abastecimiento.<br>HU5 – IA para productos<br>Como administrador, quiero generar descripciones automáticas para ahorrar tiempo.<br><br>8. Backlog del proyecto (Jira):</div>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Decisiones</div>
+        <h2>Decisiones técnicas tomadas</h2>
+        <ul class="neon-list"><li>Se plantea una aplicacion Java conectada a MySQL/MariaDB para centralizar la informacion.</li>
+<li>Se separan perfiles de Administrador y Empleado para controlar permisos desde el inicio.</li>
+<li>Se incluyen funciones de IA con OpenRouter para automatizar descripciones y categorias.</li>
+<li>El sistema queda orientado a operaciones CRUD sobre productos, clientes, proveedores y pedidos.</li>
+        </ul>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Resultados</div>
+        <h2>Resultados obtenidos</h2>
+        <ul class="neon-list"><li>Requisitos funcionales y no funcionales documentados.</li>
+<li>Actores principales identificados con sus permisos.</li>
+<li>Casos de uso e historias de usuario preparados para guiar el desarrollo.</li>
+<li>Backlog inicial del proyecto organizado en Jira.</li>
+        </ul>
+      </section>
+      
+      
+        <section class="content-section">
+          <div class="section-kicker">Evidencias</div>
+          <h2>Galeria de capturas</h2>
+          <div class="gallery-grid">
+            
+            <a class="gallery-item reveal" href="assets/capturas/p05_01.png" data-lightbox data-caption="Diagrama de casos de uso con administrador y empleado.">
+              <img src="assets/capturas/p05_01.png" alt="Diagrama de casos de uso con administrador y empleado." loading="lazy">
+              <span>Diagrama de casos de uso con administrador y empleado.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p07_01.png" data-lightbox data-caption="Backlog de Jira con historias iniciales del sistema.">
+              <img src="assets/capturas/p07_01.png" alt="Backlog de Jira con historias iniciales del sistema." loading="lazy">
+              <span>Backlog de Jira con historias iniciales del sistema.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/capturas/p07_02.png" data-lightbox data-caption="Backlog de Jira con tareas de pruebas, seguridad y despliegue.">
+              <img src="assets/capturas/p07_02.png" alt="Backlog de Jira con tareas de pruebas, seguridad y despliegue." loading="lazy">
+              <span>Backlog de Jira con tareas de pruebas, seguridad y despliegue.</span>
+            </a>
+            
+          </div>
+        </section>
+    
+    </div>
+    <section class="phase-nav container"><a class="nav-card prev" href="index.html">← Inicio</a><a class="nav-card next" href="fase2.html">Fase siguiente →</a></section>
+    
+  </main>
+  <footer class="site-footer">
+    <div>
+      <strong>LevelUp Arcade</strong>
+      <p>Memoria web del proyecto Java, MySQL, Linux, Git y OpenRouter.</p>
+    </div>
+    <div class="footer-tech">
+      <span>Java</span><span>MySQL</span><span>Ubuntu</span><span>Git</span><span>OpenRouter</span>
+    </div>
+  </footer>
+</body>
+</html>
