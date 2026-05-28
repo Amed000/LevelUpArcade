@@ -104,7 +104,7 @@ memoria-web/
 │   └── main.js             ← Lógica interactiva global
 │
 └── assets/
-    ├── capturas/           ← Screenshots extraídas del PDF
+    ├── capturas/           ← captura
     └── diagramas/          ← UML, casos de uso, flujos, etc.
 ```
 
