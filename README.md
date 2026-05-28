@@ -170,7 +170,6 @@ Contraseña: ********
 [3] Gestión de Proveedores
 [4] Gestión de Categorías
 [5] 🤖 Herramientas de IA
-[6] Gestión de Usuarios
 [0] Salir
 ```
 
@@ -235,9 +234,8 @@ levelup-arcade/
 │   └── service/
 │       └── LlmService.java
 ├── test/
-├── database/
-│   ├── schema.sql
-│   └── data_sample.sql
+├── sql/
+│   ├── script.sql
 ├── config/
 │   └── config.example.properties
 ├── scripts/
