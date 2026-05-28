@@ -112,7 +112,7 @@ memoria-web/
 
 ## ▶️ Cómo visualizarla
 
-**Opción 1 — Abrir directamente en el navegador:**
+**Abrir directamente en el navegador:**
 
 ```bash
 # Clona el repositorio
@@ -127,17 +127,7 @@ xdg-open index.html      # Linux
 start index.html         # Windows
 ```
 
-**Opción 2 — Servidor local (recomendado para evitar restricciones CORS):**
 
-```bash
-# Con Python
-python3 -m http.server 8080
-
-# Con Node.js (npx)
-npx serve .
-
-# Abre en el navegador:
-# http://localhost:8080
 ```
 
 ---
