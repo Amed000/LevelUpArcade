@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fase 9 - Memoria Web | LevelUp Arcade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body class="phase-page">
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <header class="site-header" data-nav>
+    <a class="brand" href="index.html" aria-label="Inicio LevelUp Arcade">
+      <span class="brand-mark">LU</span>
+      <span class="brand-text">LevelUp Arcade</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Navegacion principal">
+      <a class="" href="index.html">Inicio</a>
+<a class="" href="fase1.html">Fase 1</a>
+<a class="" href="fase2.html">Fase 2</a>
+<a class="" href="fase3.html">Fase 3</a>
+<a class="" href="fase4.html">Fase 4</a>
+<a class="" href="fase5.html">Fase 5</a>
+<a class="" href="fase6.html">Fase 6</a>
+<a class="" href="fase7.html">Fase 7</a>
+<a class="" href="fase8.html">Fase 8</a>
+<a class="active" href="fase9.html">Fase 9</a>
+<a class="" href="fase10.html">Fase 10</a>
+<a class="" href="presentacion.html">Presentación</a>
+    </nav>
+  </header>
+  <main>
+
+    <section class="phase-hero">
+      <div class="particle-layer" data-particles></div>
+      <div class="hero-grid"></div>
+      <div class="container hero-inner">
+        <div class="phase-chip">Fase 09</div>
+        <h1>Fase 9 - Memoria Web del Proyecto</h1>
+        <p>Esta fase explica cómo se preparó la web que presenta el proyecto LevelUp Arcade.</p>
+      </div>
+    </section>
+    <div class="container phase-layout">
+      <section class="content-section reveal">
+        <div class="section-kicker">Objetivo</div>
+        <h2>Objetivo de la fase</h2>
+        <p>Crear una memoria web estática, moderna y fácil de navegar que reúna las fases 1 a 10 del proyecto LevelUp Arcade, integrando el contenido trabajado y sus capturas.</p>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Tecnologias</div>
+        <h2>Tecnologías usadas para crear esta web</h2>
+        <div class="feature-grid small">
+          <article><strong>HTML5</strong><p>Estructura semántica para portada, fases, galerías y presentación.</p></article>
+          <article><strong>CSS3</strong><p>Diseño dark gaming, glassmorphism, glow neon, responsive y cursor personalizado.</p></article>
+          <article><strong>JavaScript</strong><p>Menú móvil, progreso de lectura, lightbox, scroll reveal y partículas animadas.</p></article>
+          <article><strong>Python</strong><p>Preparación del contenido y organización de las capturas de la memoria.</p></article>
+        </div>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Estructura</div>
+        <h2>Estructura de archivos</h2>
+        <pre class="code-block">memoria-proyecto/
+├── index.html
+├── fase1.html ... fase10.html
+├── presentacion.html
+├── css/styles.css
+├── js/main.js
+└── assets/
+    └── capturas/</pre>
+      </section>
+      <section class="content-section reveal">
+        <div class="section-kicker">Diseno</div>
+        <h2>Decisiones de diseno</h2>
+        <ul class="neon-list">
+          <li>Se eligio una estetica dark gaming con fondo negro, cian electrico y morado neon.</li>
+          <li>Orbitron se usa en titulares para reforzar el caracter arcade y tecnologico.</li>
+          <li>Las tarjetas tienen efecto glassmorphism, borde luminoso y elevacion al pasar el cursor.</li>
+          <li>Las galerias abren capturas en lightbox para revisar diagramas y pantallas sin salir de la pagina.</li>
+          <li>La web no necesita servidor: funciona abriendo directamente los HTML con rutas relativas.</li>
+        </ul>
+      </section>
+        <section class="content-section reveal">
+         <div class="section-kicker">Video</div>
+         <h2>Un vídeo demostrativo del funcionamiento de la aplicación</h2>
+           <div class="video-wrapper">
+             <video controls preload="metadata" poster="assets/video-poster.png">
+               <source src="assets/Video.mp4" type="video/mp4">
+               Tu navegador no soporta la reproducción de vídeo.
+             </video>
+           </div>
+        </section>
+      
+        <section class="content-section">
+          <div class="section-kicker">Resultado</div>
+          <h2>Capturas del resultado final</h2>
+          <div class="gallery-grid">
+            <a class="gallery-item reveal" href="assets/web-fase1.png" data-lightbox data-caption="Página de fase con texto, apartados y galería.">
+              <img src="assets/web-fase1.png" alt="Página de fase con texto, apartados y galería." loading="lazy">
+              <span>Página de fase con texto, apartados y galería.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/web-fase10.png" data-lightbox data-caption="Página de interfaz gráfica con capturas Swing.">
+              <img src="assets/web-fase10.png" alt="Página de interfaz gráfica con capturas Swing." loading="lazy">
+              <span>Página de interfaz gráfica con capturas Swing.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/web-index.png" data-lightbox data-caption="Portada de la memoria web con hero animado y tarjetas de fases.">
+              <img src="assets/web-index.png" alt="Portada de la memoria web con hero animado y tarjetas de fases." loading="lazy">
+              <span>Portada de la memoria web con hero animado y tarjetas de fases.</span>
+            </a>
+            
+            <a class="gallery-item reveal" href="assets/web-mobile-check.png" data-lightbox data-caption="Adaptación móvil de la portada con menú responsive.">
+              <img src="assets/web-mobile-check.png" alt="Adaptación móvil de la portada con menú responsive." loading="lazy">
+              <span>Adaptación móvil de la portada con menú responsive.</span>
+            </a>
+            </div>
+        </section>
+        
+    </div>
+    <section class="phase-nav container"><a class="nav-card prev" href="fase8.html">← Fase anterior</a><a class="nav-card next" href="fase10.html">Fase siguiente →</a></section>
+    
+  </main>
+  <footer class="site-footer">
+    <div>
+      <strong>LevelUp Arcade</strong>
+      <p>Memoria web del proyecto Java, MySQL, Linux, Git y OpenRouter.</p>
+    </div>
+    <a class="footer-repo" href="https://github.com/Amed000/LevelUpArcade" target="_blank" rel="noopener">
+      <span>GH</span>
+      <strong>Repositorio GitHub</strong>
+    </a>
+    <div class="footer-tech">
+      <span>Java</span><span>MySQL</span><span>Ubuntu</span><span>Git</span><span>OpenRouter</span>
+    </div>
+  </footer>
+</body>
+</html>
