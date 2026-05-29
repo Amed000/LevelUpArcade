@@ -1,0 +1,28 @@
+Manual de usuario (fase 8)
+LevelUp Arcade es una aplicación de escritorio desarrollada en Java que permite la
+gestión de una tienda tipo arcade. El sistema incluye un inicio de sesión de usuarios con
+distintos roles (ADMIN y EMPLEADO), y a partir de ahí se puede acceder a las
+distintas funciones del programa. Entre ellas se encuentran la gestión de productos,
+clientes y pedidos, todo ello mediante una interfaz gráfica sencilla. Además, el sistema
+incorpora una integración con IA (OpenRouter) que permite generar automáticamente
+descripciones de productos.
+Para instalar y ejecutar la aplicación es necesario disponer de Java instalado, una base
+de datos MySQL o MariaDB con la base de datos importada llamada “levelup_arcade”,
+el archivo ejecutable LevelUpArcade.jar y el archivo config.properties en la misma
+carpeta. Este archivo de configuración contiene los datos de conexión a la base de datos
+y la configuración de la IA. Una vez preparado todo, la aplicación se ejecuta desde
+consola con el comando java -jar LevelUpArcade.jar.
+El sistema permite realizar las principales operaciones de gestión. En productos se
+pueden crear, editar, eliminar y listar artículos. En clientes se permite su alta,
+modificación, eliminación y consulta. En pedidos se pueden crear pedidos
+seleccionando cliente y productos, calculando automáticamente el total. Todo el sistema
+funciona de forma centralizada desde el menú principal.
+El uso del sistema es sencillo: al iniciar la aplicación aparece una pantalla de login
+donde el usuario introduce sus credenciales. Dependiendo del rol asignado, tendrá
+acceso completo (ADMIN) o limitado (EMPLEADO). Una vez dentro, el usuario puede
+navegar por las distintas opciones del sistema para realizar las operaciones necesarias de
+forma rápida y organizada.
+
+
+
+AHMED SALEM.
